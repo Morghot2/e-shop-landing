@@ -1,5 +1,6 @@
+import { Landing } from './Landing/Landing';
 const App = () => {
-  return <div>Landing</div>;
+  return <Landing />;
 };
 
-export default App;
+export { App };

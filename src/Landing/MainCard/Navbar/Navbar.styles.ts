@@ -6,6 +6,11 @@ const NavbarWrapper = styled.nav`
   align-items: center;
   color: #224f34;
 `;
-const Logo = styled.span``;
+const Logo = styled.span`
+  font-family: Elephant;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 49px;
+`;
 
 export { NavbarWrapper, Logo };

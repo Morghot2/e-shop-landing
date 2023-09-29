@@ -7,7 +7,7 @@ import {
   ButtonWrapper,
   AboutButton,
 } from './AboutSection.styles';
-import main from '../../../assets/main.png';
+import main from 'src/assets/main.png';
 
 export const AboutSection = () => {
   return (

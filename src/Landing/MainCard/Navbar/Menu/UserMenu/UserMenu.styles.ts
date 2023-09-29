@@ -13,11 +13,21 @@ const LoginButton = styled.button`
   line-height: 30px;
   background-color: transparent;
   color: #224f34;
-  border: 2px solid #224f34;
+  border: 2.5px solid #224f34;
+  border-radius: 3px;
   width: 142px;
   height: 52px;
-  border-radius: 3px;
   margin-left: 50px;
+  -webkit-transition: color 0.2s ease-in-out;
+  &:hover {
+    background-color: #224f34;
+    color: white;
+    cursor: pointer;
+  }
 `;
 
-export { UserMenuWrapper, LoginButton };
+const ShoppingCart = styled.img`
+  cursor: pointer;
+`;
+
+export { UserMenuWrapper, LoginButton, ShoppingCart };

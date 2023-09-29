@@ -13,6 +13,7 @@ const NavItem = styled.div`
   font-size: 22px;
   font-weight: 500;
   line-height: 33px;
+  cursor: pointer;
 `;
 
 export { NavSectionsWrapper, NavItem };

@@ -65,6 +65,14 @@ const AboutButton = styled.button`
   font-weight: 500;
   line-height: 30px;
   margin-top: 20px;
+  -webkit-transition: color 0.2s ease-in-out;
+  &:hover {
+    background-color: transparent;
+    color: #224f34;
+    border: 2px solid #224f34;
+    cursor: pointer;
+  border-radius: 3px;
+  }
   @media (max-width: 1500px) {width: 100%; text-align: center;}; 
   @media (max-width: 400px) {width: 70%; text-align: center; font-size: 17px};
 }

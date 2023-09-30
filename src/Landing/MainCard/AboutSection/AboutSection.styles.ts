@@ -19,6 +19,9 @@ const AboutImg = styled.div`
 const AboutText = styled.div`
   color: #224f34;
   display: inline-block;
+  @media (max-width: 1500px) {
+    width: 100%;
+  }
 `;
 const AboutTitle = styled.p`
   font-family: 'Rufina', serif;

@@ -42,8 +42,8 @@ const ProductInfo = styled.div`
   justify-content: space-between;
   align-items: center;
 `;
-const SeeAllButton = styled.button<{ isVisible: boolean }>`
-  display: ${props => (props.isVisible ? 'inline-block' : 'none')};
+const SeeAllButton = styled.button<{ $isVisible: boolean }>`
+  display: ${props => (props.$isVisible ? 'inline-block' : 'none')};
   font-family: 'Poppins', sans-serif;
   font-size: 22px;
   font-weight: 500;

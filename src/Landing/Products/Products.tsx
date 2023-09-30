@@ -31,7 +31,7 @@ export const Products = () => {
       {isLoading ? <Spinner /> : <ProductsList products={productsList} />}
       <SeeAllButton
         onClick={handleButtonClick}
-        isVisible={isButtonVisible && !isLoading}
+        $isVisible={isButtonVisible && !isLoading}
       >
         See all
         <ArrowImg src={arrow} />

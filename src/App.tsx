@@ -1,5 +1,5 @@
 import { QueryClient, QueryClientProvider } from 'react-query';
-import { Landing } from './Landing/Landing';
+import { Landing } from './components/Landing';
 
 const queryClient = new QueryClient();
 

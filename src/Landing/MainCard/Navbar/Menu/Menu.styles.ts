@@ -5,7 +5,7 @@ export const MenuWrapper = styled.div`
   justify-content: space-between;
   align-items: center;
   color: #224f34;
-  @media (max-width: 1500px) {
+  @media (max-width: 1250px) {
     display: none;
   }
 `;

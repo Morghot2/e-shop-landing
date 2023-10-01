@@ -14,9 +14,8 @@ export const StyledMobileNavbar = styled.div<{ $isOpen: boolean }>`
     background-color: transparent;
     border: none;
     padding: 0;
-    height: 50px;
     text-align: center;
-    height: 100px;
+    height: 10%;
     &:hover {
       color: #224f34;
       background-color: white;
@@ -24,8 +23,11 @@ export const StyledMobileNavbar = styled.div<{ $isOpen: boolean }>`
       cursor: pointer;
       @media (max-width: 455px) {
         width: 100vw;
-        height: 150px;
+        height: 15%;
       }
+    }
+    @media (max-width: 1250px) {
+      font-size: 20px;
     }
   }
 
@@ -39,7 +41,8 @@ export const StyledMobileNavbar = styled.div<{ $isOpen: boolean }>`
     top: 0;
     right: 0;
 
-    width: 70vw;
+    width: 30vw;
+    height: 100vh;
     padding-top: 6em;
     transition: transform 0.3s ease-in-out;
 

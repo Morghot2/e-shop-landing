@@ -41,6 +41,7 @@ export const useProducts = () => {
     queryKey: ['Products'],
     queryFn: () => fetchProducts(3),
     select: selectProductsData,
+    staleTime: Infinity,
   });
   const fetchMoreData = async () => {
     const currentDataLength = data ? data.length : 0;
@@ -49,8 +50,6 @@ export const useProducts = () => {
       `https://fakestoreapi.com/products?limit=${nextLimit}`,
     );
     const additionalData = await response.json();
-    console.log(additionalData);
-    console.log(nextLimit);
 
     queryClient.setQueryData(['Products'], additionalData);
   };

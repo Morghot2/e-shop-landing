@@ -4,7 +4,7 @@ const UserMenuWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 190px;
+  margin-left: 120px;
 `;
 const LoginButton = styled.button`
   font-family: 'Poppins', sans-serif;
